@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_marginTop="50dp"
+                                             android:layout_height="match_parent">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="56dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    tools:context=".view.activities.SplashActivity"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                <ImageView android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/sgpol_logo"
+                />
+
+            </LinearLayout>
+
+            <!-- Login Label -->
+            <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+
+                <EditText android:id="@+id/input_login"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:drawableLeft="@drawable/ic_account_circle_perfil_24dp"
+                          android:drawableStart="@drawable/ic_credit_card_black_24dp"
+                          android:inputType="text"
+                          android:hint="@string/login"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Password Label -->
+            <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_senha"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:drawableLeft="@drawable/ic_account_circle_perfil_24dp"
+                          android:drawableStart="@drawable/ic_lock_black_24dp"
+                          android:inputType="textPassword"
+                          android:hint="@string/password"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@color/colorGrey"
+                    android:textAlignment="gravity"
+                    android:text="ENTRAR"
+                    android:textSize="18dp"
+                    android:paddingLeft="110dp"
+                    android:drawableLeft="@drawable/ic_exit_to_app_black_24dp"
+                    android:drawablePadding="-100dp"
+            />
+
+        </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

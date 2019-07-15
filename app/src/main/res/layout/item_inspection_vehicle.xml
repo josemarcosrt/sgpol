@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:gravity="start|center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:foregroundGravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/name_placa"
+                    android:ellipsize="end"
+                    android:layout_centerVertical="true"
+                    android:gravity="start|center"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="VPE - 4203"
+                    android:layout_marginLeft="10sp"/>
+
+            <TextView
+                    android:id="@+id/name_car"
+                    android:ellipsize="end"
+                    android:layout_centerVertical="true"
+                    android:gravity="start|center"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:text="Fiat/Bravo 2.0 JHS2123"
+                    android:layout_marginLeft="20sp"/>
+
+        </LinearLayout>
+
+
+        <Button
+                android:id="@+id/opcoes_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/tipo"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

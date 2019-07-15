@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_menu_top"
+        android:paddingBottom="5dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="25dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:gravity="bottom">
+
+
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="3"
+                      android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/xadrex"/>
+
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="2"
+                android:id="@+id/imageView"
+                android:backgroundTint="@color/colorGhostWhite"
+                android:background="@drawable/ic_person_black_24dp"/>
+
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="1dp"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/buttonProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="PERFIL"
+                    android:textColor="@color/design_default_color_primary_dark"
+                    android:background="@color/colorGhostWhite"
+                    android:drawableLeft="@drawable/ic_account_circle_perfil_24dp"
+                    android:paddingLeft="25dp"
+                    android:drawablePadding="-25dp"
+                    android:layout_marginRight="3dp"/>
+
+
+            <Button android:id="@+id/buttonSair"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="SAIR"
+                    android:textColor="@color/design_default_color_primary_dark"
+                    android:background="@color/colorGhostWhite"
+                    android:paddingLeft="25dp"
+                    android:drawablePadding="-25dp"
+                    android:drawableLeft="@drawable/ic_exit_to_app_black_24dp"/>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

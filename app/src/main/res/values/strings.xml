@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">SGpol</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- Splash Activity -->
+    <string name="name_system">Sistema de gerenciamento Polícial</string>
+
+
+    <!-- Login Activity -->
+    <string name="usuario">Usuário</string>
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+    <string name="validacao_login">Preencha os campos de login</string>
+
+
+    <!-- Home Activity -->
+    <string name="welcome">Seja bem Vindo</string>
+    <string name="firstParagraph">Este aplicativo foi desenvolvido com o objetivo de auxiliar o policial nas questôes administrativa da Polícia Militar</string>
+    <string name="secondParagraph">Sugestoes e criticas poderão ser enviadas aos desenvolvedores por meio do botao localizado campo superior esquerdo</string>
+    <string name="send_post">Diretoria de Telemática</string>
+    <string name="info">Selecione uma opção no menu principal</string>
+    <string name="geral">Geral</string>
+    <string name="sair">Sair</string>
+
+    <!-- Menu Right -->
+    <string name="vistoria_de_viatura">SGF - Vistória de Viatura</string>
+    <string name="servico_voluntario">SGF - Serviço voluntário</string>
+
+
+
+    <string name="realizar">Realizar</string>
+    <string name="tipo">Tipo</string>
+    <string name="local">Local</string>
+    <string name="status">Status</string>
+    <string name="endere_o">Endereço do WebService</string>
+    <string name="selecione_tipo_inventario">Selecione o tipo de inventário</string>
+    <string name="o_que_deseja_fazer">O que deseja fazer?</string>
+    <string name="transmitir">Transmitir</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="excluir">Excluir</string>
+    <string name="concluir">Concluir</string>
+    <string name="concluido">Concluido</string>
+    <string name="reabrir">Reabrir</string>
+    <string name="em_aberto">Em Aberto</string>
+
+
+    <!-- MovimentacaoActivity -->
+    <string name="movimentacao">Movimentação</string>
+
+    <!--ConfiguracaoActivity -->
+    <string name="configuracoes">Configurações</string>
+
+    <!--SobreActivity -->
+    <string name="sobre">Sobre</string>
+
+</resources>
